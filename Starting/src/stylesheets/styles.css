@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: cornsilk;
+}
+.label {
+    -fx-font-family: "Copperplate Gothic Bold";
+    -fx-font-size: 25 px;
+}
+.hyperlink {
+    -fx-font-family: Impact;
+    -fx-background-color: crimson;
+    -fx-font-size: 20 px;
+}
+#special-label {
+    -fx-background-color: #68a5ff;
+    -fx-font-size: 7;
+}
