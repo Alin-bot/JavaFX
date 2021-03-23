@@ -140,26 +140,8 @@ public class MainFrame extends Application {
 
         stage.setScene(scene); // adding scene to our window/stage
 
-        /*
-        Group root = new Group();
-        scene.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent me) -> {
-            if(me.getButton().equals(MouseButton.PRIMARY)) {
-                Circle circle = new Circle(me.getX(), me.getY(), 10, Color.BLUE);
-                addEventHandler(root, circle);
-                root.getChildren().add(circle);
-            }
-        });
-        */
-
         stage.show(); // displaying the window
         //help.show();
-    }
-    public void addEventHandler(Group parent, Node node) {
-        node.addEventHandler(MouseEvent.MOUSE_CLICKED, (MouseEvent me) -> {
-            if(me.getButton().equals(MouseButton.SECONDARY)) {
-                parent.getChildren().remove(node);
-            }
-        });
     }
 
     @Override
