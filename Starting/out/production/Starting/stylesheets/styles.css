@@ -7,10 +7,14 @@
 }
 .hyperlink {
     -fx-font-family: Impact;
-    -fx-background-color: crimson;
+    -fx-background-color: #e24819;
     -fx-font-size: 20 px;
 }
 #special-label {
     -fx-background-color: #68a5ff;
     -fx-font-size: 7;
+}
+#color-label {
+    -fx-font-size: 15;
+    -fx-font-family: "Californian FB";
 }
